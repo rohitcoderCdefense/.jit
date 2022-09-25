@@ -1,0 +1,12 @@
+owners:
+  default: null
+name: My plan
+author: Jit
+items:
+  - name: Ensure your API is secure
+    uses: jitsecurity-controls/jit-plans/items/runtime/item-api-security.yml@latest
+level: beginner
+version: 0.1
+references:
+  - https://www.jit.io
+tags: []
