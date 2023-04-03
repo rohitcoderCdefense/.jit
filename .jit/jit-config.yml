@@ -1,0 +1,21 @@
+applications:
+- application_name: ''
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: ''
+  type: web
+- api_domain: https://petstore.swagger.io
+  application_name: https://petstore.swagger.io/v2/swagger.json
+  authentication_mode: non-authenticated
+  exclude_paths:
+  - 'https://petstore.swagger.io/v2/1.txt
+
+    '
+  target_url: https://petstore.swagger.io/v2/swagger.json
+  type: api
+aws:
+- account_id: '976490811693'
+  account_name: Rohit
+  regions:
+  - ap-south-1
+  type: account
