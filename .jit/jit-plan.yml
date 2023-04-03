@@ -1,0 +1,13 @@
+name: My plan
+level: beginner
+update_id: ad9621cd-f46d-44ae-9c37-610fee11f490
+author: Jit
+version: 0.1
+owners:
+  default: null
+references:
+  - https://www.jit.io
+tags: []
+items:
+  - name: Ensure your API is secure
+    uses: jitsecurity-controls/jit-plans/items/runtime/item-api-security.yml@latest
