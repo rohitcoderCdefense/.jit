@@ -1,1 +1,6 @@
-{}
+aws:
+- account_id: '976490811693'
+  account_name: Rohit
+  regions:
+  - ap-south-1
+  type: account
